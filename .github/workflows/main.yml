@@ -20,5 +20,4 @@ jobs:
           jira_user: '${{ secrets.JIRA_USER }}'
           jira_token: '${{ secrets.JIRA_TOKEN }}'
           jira_project: 'TRIAL'
-          jira_issue_type: 'Security'
           sync_direction: 'gh2jira'
